@@ -36,7 +36,7 @@ num_list = [4, 9, 11, 14, 1, 13, 6, 15]
 circuit = less_than_k(k, num_list)
 ## Expected Output
 After running the provided example, you should see a histogram plot displaying the counts of measured outcomes, indicating the integers in the input list that are less than the specified value, k.
-
+```
 ## Dependencies
 - Qiskit
 - Matplotlib (for plotting)
