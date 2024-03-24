@@ -41,12 +41,15 @@ After running the provided example, you should see a histogram plot displaying t
 - Qiskit
 - Matplotlib (for plotting)
 
+## Issues and Potential Fixes
+1. **Efficiency of Oracle Implementation**: The current implementation of the oracle may become inefficient for large input sizes as it iterates over all qubits. A potential fix could be optimizing the oracle construction to reduce unnecessary operations.
+2. **Calculation of Iterations**: The number of iterations in Grover's algorithm is currently calculated using a fixed formula. However, a more adaptive approach could be implemented to adjust the number of iterations dynamically based on the problem size.
+
 ## Contributors
 - Hope Alemayehu (https://github.com/Hope-Alemayehu)
 
 ## Acknowledgments
-We would like to thank the [Qiskit](https://qiskit.org/documentation/) team for their valuable contributions to the field of quantum computing.
+I would like to thank the [Qiskit](https://qiskit.org/documentation/) team for their valuable contributions to the field of quantum computing.
 
 ## Additional Information
 For more details on Grover's algorithm and its application to the "less than k" problem, as well as further discussions on quantum computing, feel free to explore the provided source code and related documentation.
-
